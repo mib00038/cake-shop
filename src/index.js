@@ -7,9 +7,9 @@ import App from './App';
 import './index.css';
 
 const AppWrapper = () => (
-    < MuiThemeProvider muiTheme={ getMuiTheme( darkBaseTheme ) } >
-        <App/>
-    </ MuiThemeProvider >
+  <MuiThemeProvider muiTheme={ getMuiTheme( darkBaseTheme ) } >
+      <App/>
+  </ MuiThemeProvider >
 );
 
 ReactDOM.render(
